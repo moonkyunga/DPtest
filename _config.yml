@@ -86,7 +86,8 @@ social:
 # Analytics
 analytics:
   provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
-  google: 'UA-176988112-1'
+  google_analytics: 'UA-176988112-1'
+  google: 
     tracking_id          :
     anonymize_ip         : # true, false (default)
 
@@ -279,4 +280,3 @@ defaults:
       comments: # true
       share: true
       related: true
-remote_theme : mmistakes/minimal-mistakes
